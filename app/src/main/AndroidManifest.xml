@@ -23,11 +23,7 @@
         </activity>
         <activity
             android:name=".CameraPreviewActivity"
-            android:label="@string/title_activity_camera_preview"
-            android:parentActivityName="example.ivorycirrus.cam.MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="example.ivorycirrus.cam.MainActivity" />
+            android:theme="@style/Theme.AppCompat.NoActionBar">
         </activity>
     </application>
 

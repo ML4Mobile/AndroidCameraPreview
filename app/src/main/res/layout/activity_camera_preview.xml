@@ -10,4 +10,16 @@
         android:id="@+id/frm_preview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"></FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/btn_finish_preview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Finish Preview" />
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
