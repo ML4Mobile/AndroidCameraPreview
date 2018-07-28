@@ -1,10 +1,11 @@
 # AndroidCameraPreview
 Sample of camera preview application
 
-> **==== [[ CAUTION ]] =====================================**<br/>
+> **---- [[ CAUTION ]] ----------------------------------------------------------------------**<br/>
 > This application is a template or a sample for processing camera preview images.<br/>
 > It is using ```android.hardware.camera``` API which deprecated since Android 5.0 Lollipop(API 21).<br/>
-> I tested on Android 8.0(API 26) and still running well on , but you have to see [Camera2](https://developer.android.com/reference/android/hardware/camera2/package-summary) for production use.
+> I tested on Android 8.0(API 26) and still running well on , but you have to see [Camera2](https://developer.android.com/reference/android/hardware/camera2/package-summary) for production use.<br/>
+> **-----------------------------------------------------------------------------------------**
 
 ## Implementations
 1. Request uses permossion if Android version is 6.0 Marshmellow or heigher
